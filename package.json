@@ -1,0 +1,20 @@
+{
+  "name": "tzset",
+  "version": "0.1.1",
+  "description": "Node.js tzset addon",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "~1.5.0",
+    "graceful-fs": "^4.2.4",
+    "nan": "~2.14.0"
+  },
+  "scripts": {
+    "test": "node tzset.js"
+  },
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hungchenchang/tzset.git"
+  },
+  "license": "MIT"
+}
